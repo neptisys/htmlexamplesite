@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>page 6</title>
+</head>
+<body style="background-color: cadetblue;">
+    <div style="background-color: #444444;">
+    <a href="index.html"><h1>page 1</h1></a>
+    <hr>
+    <p><span style="color: blueviolet;"><del>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</del></span> Beatae dignissimos, quas in dolore velit totam ab placeat. Nihil provident ab laborum blanditiis et. Laudantium aspernatur tempora quas dolorem similique praesentium.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis tempora odit non velit porro molestiae, praesentium dicta dolor, sunt itaque recusandae voluptatibus laborum maxime hic repellendus voluptates mollitia, nulla doloremque.</p>
+    </div>
+    <br>
+    <h2 style="color: aquamarine;">hi chat</h2>
+
+    <a href="https://www.youtube.com/watch?v=sbYNG4KU3qs&t=3" target="_blank" title="nothing :3">
+    <button onclick="clicked()" style="color: antiquewhite;background-color: black;border-radius: 30;">click. now</button>
+    </a>
+
+    <p id="test" hidden>ski-bi-bi-di...... on my mew streak.....</p>
+
+    <h2 style="color: bisque;">customer satisfaction survey!!</h2>
+    <hr>
+    <form>
+
+        <label style="color:paleturquoise;" for="addy">home address:</label>
+        <input type="text" id="addy" name="addyvar" placeholder="input here!" required>
+        
+        <div>
+            <label style="color:paleturquoise">ssn</label>
+            <input type="password" required placeholder="PLEASE">
+        </div>
+
+        <div>
+            <label style="color:paleturquoise">phone number</label>
+            <input type="tel" required placeholder="+1-(234)-5678">
+        </div>
+
+        <div>
+            <label style="color:paleturquoise">birthday</label>
+            <input type="date" required>
+        </div>
+
+        <div>
+            <label style="color:paleturquoise">favorite number</label>
+            <input type="number" required>
+        </div>
+        
+        <div>
+            <label for="stream" style="color: antiquewhite;">Favorite Streamer:</label>
+            <label for="kai" style="color:paleturquoise">Kai Cenat</label>
+            <input type="radio" name="stream" value="kai" id="kai">
+
+            <label for="adin" style="color:paleturquoise">Adin Ross</label>
+            <input type="radio" name="stream" value="adin" id="adin">
+
+            <label for="duke" style="color:paleturquoise">Duke Dennis</label>
+            <input type="radio" name="stream" value="duke" id="duke">
+
+            <label for="fanum" style="color:paleturquoise">Fanum</label>
+            <input type="radio" name="stream" value="fanum" id="fanum">
+        </div>
+
+        <div>
+            <label for="sigma level" style="color: turquoise;">sigma level:</label>
+            <select id="sigma level" name="sigma level">
+                <option value="0">0</option>
+
+                <option value="-1200">-1200</option>
+
+                <option value="37">37</option>
+            </select>
+        </div>
+
+        <div>
+
+            <label for="consent" style="color: red;">consent to have all of this data used against you:</label>
+            <input type="checkbox" id="consent" name="consent" disabled checked>
+
+        </div>
+
+        <br>
+
+        <div>
+            <input type="reset">
+            <input type="submit">
+        </div>
+    </form>
+
+    <p id="add" hidden></p>
+
+    <script>
+        function clicked(){
+            document.getElementById("test").hidden=false;
+        }
+    </script>
+</body>
+</html>
